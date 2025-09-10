@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Página Secreta</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <!-- Tela de login -->
+  <div id="login">
+    <h2>🔒 Digite a senha para entrar</h2>
+    <input type="password" id="senha" placeholder="Senha">
+    <button onclick="verificarSenha()">Entrar</button>
+    <p id="erro" style="color: red; display: none;">Senha incorreta!</p>
+  </div>
+
+  <!-- Conteúdo secreto -->
+  <div id="conteudo" style="display: none;">
+    <h1>💖 Bem-vindo à nossa página secreta! 💖</h1>
+    <p>Essa surpresa é só para você ❤️</p>
+
+    <div class="galeria">
+      <img src="fotinhos/WhatsApp1.jpeg" alt="Foto 1">
+      <img src="fotinhos/WhatsApp2.jpeg" alt="Foto 2">
+      <img src="fotinhos/WhatsApp3.jpeg" alt="Foto 3">
+    </div>
+
+    <iframe style="border-radius:12px; margin-top:20px;" 
+      src="https://open.spotify.com/embed/track/3nlhqZHMXG2A5UkW633wwx?utm_source=generator" 
+      width="100%" height="80" frameborder="0" allowfullscreen 
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

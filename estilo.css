@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(to right, #ffdde1, #ee9ca7);
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+#login {
+  margin-top: 20vh;
+}
+
+input, button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+button {
+  background: #ff4b5c;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #d43f50;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.galeria img {
+  width: 200px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+}
